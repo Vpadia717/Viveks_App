@@ -13,30 +13,21 @@ It is a *Vivek's App* where the user will give their data and will get their dat
 
 Reference Code : 
 ```python
-public List<UserModelClass> getUserList() {
-	String sql = "select * from " + TABLE_NAME;
-	sqLiteDatabase = this.getReadableDatabase();
-	List<UserModelClass> storeEmployee = new ArrayList<>();
-	Cursor cursor = sqLiteDatabase.rawQuery(sql, null);
-	if (cursor.moveToFirst()) {
-    		do {
-			int id = Integer.parseInt(cursor.getString(0));
-			String name = cursor.getString(1);
-			String city = cursor.getString(2);
-			String gender = cursor.getString(3);
-			String password = cursor.getString(4);
-			storeEmployee.add(new UserModelClass(id, name, city, gender, password));
-		} 
-		while (cursor.moveToNext());
-	}
-	cursor.close();
-	return storeEmployee;
-}
+btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String s = txt.getText().toString();
+                if (!validateData()) {
+                    return;
+                }
+                txtv.setText("You have entered : '" + s + "'");
+            }
+        });
 ```
 
 Reference Images : <br>
 	<br><img src="app/src/main/res/drawable/ss.jpg" alt="drawing" width="300" height="500"/>
 
-This is the README file for Login repository. [^1]
+This is the README file for Vivek's App repository. [^1]
 
 [^1]: By : Vivek Padia.
