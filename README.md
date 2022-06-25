@@ -26,7 +26,7 @@ btn.setOnClickListener(new View.OnClickListener() {
 ```
 
 Reference Images : <br>
-	<br><img src="app/src/main/res/drawable/main.jpg" alt="drawing" width="500" height="500"/>
+	<br><img src="app/src/main/res/drawable-v24/main.jpg" alt="drawing" width="500" height="500"/>
 
 This is the README file for Vivek's App repository. [^1]
 
