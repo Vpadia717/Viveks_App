@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vivek\'s App</string>
+    <string name="welcome">Welcome to the Vivek\'s App :</string>
+    <string name="edit_hint">Enter something :</string>
+    <string name="submit">Submit</string>
+    <string name="by">By :</string>
+    <string name="name_app">Vivek Padia.</string>
+</resources>

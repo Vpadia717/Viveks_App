@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns:tools="http://schemas.android.com/tools"
+    name="vivek_padia"
+    tools:ignore="MissingPrefix">
+
+    <item name="android:textSize">
+        50sp
+    </item>
+
+    <item name="android:shadowColor">
+        #40C70039
+    </item>
+
+    <item name="android:shadowDx">
+        0
+    </item>
+
+    <item name="android:shadowDy">
+        4
+    </item>
+
+    <item name="android:shadowRadius">
+        4
+    </item>
+
+</style>
