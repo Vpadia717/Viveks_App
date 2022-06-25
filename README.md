@@ -14,15 +14,15 @@ It is a *Vivek's App* where the user will give their data and will get their dat
 Reference Code : 
 ```python
 btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String s = txt.getText().toString();
+	@Override
+	public void onClick(View view) {
+		String s = txt.getText().toString();
                 if (!validateData()) {
                     return;
                 }
                 txtv.setText("You have entered : '" + s + "'");
-            }
-        });
+	}
+});
 ```
 
 Reference Images : <br>
